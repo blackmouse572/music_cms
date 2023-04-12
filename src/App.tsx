@@ -1,5 +1,4 @@
 import { FirebaseCMSApp } from "firecms";
-import { useState } from "react";
 import "./App.css";
 import { packageCollection } from "./collections/packages";
 import { playlistCollection } from "./collections/playlist";
@@ -19,10 +18,10 @@ const firebaseConfig = {
 };
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <FirebaseCMSApp
+      allowSkipLogin={true}
+      locale="vi"
       name="Music control"
       collections={[packageCollection, playlistCollection, usersCollection]}
       firebaseConfig={firebaseConfig}
