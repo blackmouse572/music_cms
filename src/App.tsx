@@ -10,7 +10,7 @@ import { usersCollection } from "./collections/users";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAlLNSrWDF5NFj-G7Dosx7MjEGiMUsTF_k",
-  authDomain: "music-box-aa4ef.firebaseapp.com",
+  authDomain: "music-cms.vercel.app",
   projectId: "music-box-aa4ef",
   storageBucket: "music-box-aa4ef.appspot.com",
   messagingSenderId: "459359176503",
